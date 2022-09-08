@@ -26,7 +26,7 @@ function App() {
     event.preventDefault();
     console.log('click')
     const act = type;
-    const url = `http://www.boredapi.com/api/activity?type=${act}`;
+    const url = `https://www.boredapi.com/api/activity?type=${act}`;
     axios({
       method: 'get',
       url,
